@@ -1,10 +1,15 @@
 var express = require('express');
-var bodyParsere = require('body-parser');
+var bodyParser = require('body-parser');
 var morgan = require('morgan');
+var config = require('./config.js');
 
 var app = express();
 
-app.listen(3000, function(){
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+app.use(morgan('dev'));
+
+app.listen(config.port, function(err){
     if(err){
         console.log(err);
     } else {
