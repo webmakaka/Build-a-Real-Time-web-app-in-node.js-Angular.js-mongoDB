@@ -24,3 +24,6 @@ http://localhost:3000/
 https://mongolab.com
 
     npm install --save mongoose
+
+
+### 8_-_Your_first_Schema_-_Creating_User_Schema
