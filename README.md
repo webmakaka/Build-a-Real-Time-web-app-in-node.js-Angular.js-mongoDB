@@ -27,3 +27,8 @@ https://mongolab.com
 
 
 ### 8_-_Your_first_Schema_-_Creating_User_Schema
+
+
+### 9_-_Password_hashing
+
+    npm install --save bcrypt-nodejs
