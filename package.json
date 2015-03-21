@@ -1,0 +1,24 @@
+{
+  "name": "userStory",
+  "version": "1.0.0",
+  "description": "[udemy] Build a Real Time web app in node.js , Angular.js, mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marley-nodejs/Build-a-Real-Time-web-app-in-node.js-Angular.js-mongoDB"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marley-nodejs/Build-a-Real-Time-web-app-in-node.js-Angular.js-mongoDB/issues"
+  },
+  "homepage": "https://github.com/marley-nodejs/Build-a-Real-Time-web-app-in-node.js-Angular.js-mongoDB",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "morgan": "^1.5.2"
+  }
+}
