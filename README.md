@@ -18,3 +18,9 @@
 ### 6_-_Your_first_Hello_World
 
 http://localhost:3000/
+
+### 7_-_Create_a_database
+
+https://mongolab.com
+
+    npm install --save mongoose
