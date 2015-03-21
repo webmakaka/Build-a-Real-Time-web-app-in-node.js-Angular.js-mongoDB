@@ -34,3 +34,15 @@ https://mongolab.com
     npm install --save bcrypt-nodejs
 
 ### 10_-_Create_a_custom_method
+
+### 11_-_Your_first_API_-_Signup_API
+
+postman
+
+POST -> localhost:3000/api/signup
+
+x-www-form-urlencoded
+
+name: Bruce
+username: batman
+password: abc123
