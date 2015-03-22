@@ -43,6 +43,10 @@ POST -> localhost:3000/api/signup
 
 x-www-form-urlencoded
 
-name: Bruce
-username: batman
-password: abc123
+name: Bruce  
+username: batman  
+password: abc123  
+
+### 12_-_Get_all_users_API
+
+http://localhost:3000/api/users
