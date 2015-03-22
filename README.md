@@ -50,3 +50,16 @@ password: abc123
 ### 12_-_Get_all_users_API
 
 http://localhost:3000/api/users
+
+### 13_-_Login_API
+
+    npm install --save jsonwebtoken
+
+postman
+
+POST -> localhost:3000/api/login
+
+x-www-form-urlencoded
+
+username: batman  
+password: abc123  
