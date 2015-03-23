@@ -123,5 +123,9 @@ module.exports = function(app, express){
             });
         });
 
+        api.get('/me', function(req, res){
+            req.json(req.decoded);
+        });
+
     return api;
 };

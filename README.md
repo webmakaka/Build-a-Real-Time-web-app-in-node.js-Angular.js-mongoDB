@@ -116,3 +116,6 @@ __
 GET -> localhost:3000/api/
 URL Parameter Key: x-access-token
 Value: token
+
+
+### 18_-_Decoded_user_s_information (code not tested)
