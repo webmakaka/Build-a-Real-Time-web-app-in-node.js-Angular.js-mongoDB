@@ -86,3 +86,6 @@ GET -> localhost:3000/api/
 
 URL Parameter Key: x-access-token
 Value: token
+
+
+### 16_-_Your_second_Schema_-_Creating_Story_Schema (code not tested)
