@@ -66,3 +66,23 @@ password: abc123
 
 
 ### 14_-_Create_a_custom_middleware (code not tested)
+
+
+### 15_-_Test_the_middleware
+
+postman
+
+POST -> localhost:3000/api/login
+
+x-www-form-urlencoded
+
+username: batman  
+password: abc123
+
+
+Headers
+
+GET -> localhost:3000/api/
+
+URL Parameter Key: x-access-token
+Value: token
