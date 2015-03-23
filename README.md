@@ -119,3 +119,9 @@ Value: token
 
 
 ### 18_-_Decoded_user_s_information (code not tested)
+
+___
+
+## Frontend
+
+### 19_-_Setup_the_front-end_files
