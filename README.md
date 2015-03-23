@@ -89,3 +89,30 @@ Value: token
 
 
 ### 16_-_Your_second_Schema_-_Creating_Story_Schema (code not tested)
+
+
+### 17_-_Post_method_in_Home_API
+
+
+
+postman
+
+GET -> localhost:3000/api/users
+POST -> localhost:3000/api/login
+
+__
+
+POST -> localhost:3000/api/
+URL Parameter Key: x-access-token
+Value: token
+
+x-www-form-urlencoded
+
+key: content
+value: Hello this is my first post!
+
+__
+
+GET -> localhost:3000/api/
+URL Parameter Key: x-access-token
+Value: token
