@@ -76,4 +76,6 @@ angular
             return $q.reject(response);
         };
 
+        return interceptorFactory;
+
     });

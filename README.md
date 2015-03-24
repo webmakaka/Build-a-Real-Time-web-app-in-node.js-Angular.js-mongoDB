@@ -131,3 +131,5 @@ ___
 ### 21_-_First_Angular_Service_part_2_-_Creating_AuthToken_Factory (code not tested)
 
 ### 22_-_First_Angular_Service_part_3_-_Creating_AuthInterceptor_Factory (code not tested)
+
+### 23_-_First_Angular_Controller_-_Creating_Main_Controller_for_Login_and_Logout (code not tested)
