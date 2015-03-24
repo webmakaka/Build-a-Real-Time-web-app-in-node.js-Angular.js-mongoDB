@@ -33,5 +33,23 @@ angular
                 return $q.reject({ message: "Userha no token"});
             }
         };
+    })
+
+    .factory('AuthToken', function(){
+        var authTokenFactory = {};
+
+        authTokenFactory.getToken = function(){
+            return $window.localStorage.getItem('token');
+        };
+
+        authTokenFactory.setToken = function(token){
+
+            if(token){
+                $window.localStorage.setItem('token', token);
+            } else {
+                $window.localStorage.removeItem('token');
+            }
+
+        };
 
     });
