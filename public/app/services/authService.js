@@ -18,7 +18,7 @@ angular
             AuthToken.setToken();
         };
 
-        authFactgory.isLoggedIn = function(){
+        authFactory.isLoggedIn = function(){
             if(AuthToken.getToken()){
                 return true;
             } else {
@@ -30,14 +30,14 @@ angular
             if(AuthToken.getToken()){
                 return $http.get('/api/me');
             } else {
-                return $q.reject({ message: "Userha no token"});
+                return $q.reject({ message: "User has no token"});
             }
         };
 
         return authFactory;
     })
 
-    .factory('AuthToken', function(){
+    .factory('AuthToken', function($window){
         var authTokenFactory = {};
 
         authTokenFactory.getToken = function(){
