@@ -4,11 +4,14 @@ angular
         var authFactory = {};
 
         authFactory.login = function(username, password){
+
+            console.log(username + " " + password);
+
             return $http.post('/api/login', {
                 username: username,
                 password: password
             })
-            .sucess(function(data){
+            .success(function(data){
                 AuthToken.setToken(data.token);
                 return data;
             });

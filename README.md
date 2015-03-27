@@ -145,3 +145,10 @@ http://localhost
 ### 25_-_Login_Html
 
 ### 26_-_Signup_Frontend (Code not working! That's ok)
+
+### 27_-_Testing_Login_and_Logout
+
+http://localhost:3000/login
+
+username: batman  
+password: abc123  
