@@ -143,3 +143,5 @@ http://localhost
 
 
 ### 25_-_Login_Html
+
+### 26_-_Signup_Frontend (Code not working! That's ok)

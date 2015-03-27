@@ -1,2 +1,2 @@
 angular
-    .module('MyApp', ['appRoutes', 'mainCtrl', 'authService']);
+    .module('MyApp', ['appRoutes', 'mainCtrl', 'authService', 'userCtrl', 'userService']);
