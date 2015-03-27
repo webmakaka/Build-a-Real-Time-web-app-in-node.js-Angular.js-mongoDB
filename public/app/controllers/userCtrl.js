@@ -14,7 +14,7 @@ angular.module('userCtrl', ['userService'])
         var vm = this;
         vm.singupUser = function(){
             vm.message = '';
-            User.create(vm.UserData)
+            User.create(vm.userData)
                 .then(function(response){
                     vm.userData = {};
                     vm.message = response.data.message;

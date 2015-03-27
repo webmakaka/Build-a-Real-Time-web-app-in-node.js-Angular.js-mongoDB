@@ -27,12 +27,18 @@ module.exports = function(app, express){
             password: req.body.password
         });
 
+        var token = createToken(user);
+
         user.save(function(err){
             if(err){
                 res.send(err);
                 return;
             }
-            res.json({ message: 'User has been created'});
+            res.json({
+                success: true,
+                message: 'User has been created',
+                token: token
+            });
         });
     });
 
@@ -50,7 +56,7 @@ module.exports = function(app, express){
     api.post('/login', function(req, res){
         User.findOne({
             username: req.body.username
-        }).select('password').exec(function(err, user){
+        }).select('name username password').exec(function(err, user){
             if(err) throw err;
 
             if(!user){
@@ -77,7 +83,7 @@ module.exports = function(app, express){
         console.log("Somebody just came to our app!");
 
         // var token = req.body.token || req.param('token') || req.headers['x-access-token'];
-        var token = req.query['x-access-token'];
+        var token = req.query['x-access-token'] || req.headers['x-access-token'];
 
         console.log("token: " + token);
 
@@ -124,7 +130,7 @@ module.exports = function(app, express){
         });
 
         api.get('/me', function(req, res){
-            req.json(req.decoded);
+            res.json(req.decoded);
         });
 
     return api;

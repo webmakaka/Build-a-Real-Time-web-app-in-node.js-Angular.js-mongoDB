@@ -59,7 +59,7 @@ angular
         return authTokenFactory;
     })
 
-    .factory('AuthInerceptor', function($q, $location, AuthToken){
+    .factory('AuthInterceptor', function($q, $location, AuthToken){
         var interceptorFactory = {};
 
         interceptorFactory.request = function(config){
