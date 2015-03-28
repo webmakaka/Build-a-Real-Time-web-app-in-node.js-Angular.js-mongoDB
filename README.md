@@ -158,3 +158,7 @@ password: abc123
 
 ### 29_-_Creating_Story_service_and_controller_part_1_  
 ### 30_-_Creating_Story_service_and_controller_part_2_
+
+### 31_-_Adding_real-time_capability
+
+    npm install --save socket.io

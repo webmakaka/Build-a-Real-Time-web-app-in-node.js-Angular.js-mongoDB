@@ -1,5 +1,5 @@
 angular.module('storyCtrl', ['storyService'])
-    .controller('StoryController', function(Story){
+    .controller('StoryController', function(Story, socketio){
 
         vm = this;
 
@@ -16,10 +16,12 @@ angular.module('storyCtrl', ['storyService'])
                     // clear up the form
                     vm.storyData = '';
                     vm.message = data.message;
-
-                    vm.stories.push(data);
                 });
         };
+
+        socketio.on('story', function(data){
+            vm.stories.push(data);
+        });
 
 
 

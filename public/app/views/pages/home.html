@@ -19,15 +19,18 @@
     <div class="col-md-4" ng-controller="StoryController as story">
         <div class="row">
             <div class="panel panel-primary">
-                <div class="panel-heading">Write your Srory</div>
-                <div class="palen-body">
+                <div class="panel-heading">Write your Story</div>
+                <div class="panel-body">
                     <form ng-submit="story.createStory()">
                         <input class="form-control input-lg" type="text" name="story" ng-model="story.storyData.content" placeholder="....." required>
                     </form>
                 </div>
 
-                <div class="palen palen-success">
-                    <div class="palen-body" ng-repeat="each in story.stories">
+                <div class="panel panel-success">
+
+                    <div class="panel-heading">Your Stories</div>
+
+                    <div class="panel-body" ng-repeat="each in story.stories">
                         <p>{{ each.content }}</p>
                     </div>
                 </div>
