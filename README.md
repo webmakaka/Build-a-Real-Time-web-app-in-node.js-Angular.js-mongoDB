@@ -155,3 +155,6 @@ password: abc123
 
 
 ### 28_-_Fix_sIgnup_bugs
+
+### 29_-_Creating_Story_service_and_controller_part_1_  
+### 30_-_Creating_Story_service_and_controller_part_2_
