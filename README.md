@@ -178,3 +178,7 @@ http://localhost:3000
 http://localhost:3000/allStories
 
 ### 34_-_Deploy_our_app_to_heroku
+
+============================================
+
+![Application](/app.png?raw=true)
