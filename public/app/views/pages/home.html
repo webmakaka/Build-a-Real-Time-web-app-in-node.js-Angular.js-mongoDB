@@ -30,7 +30,7 @@
 
                     <div class="panel-heading">Your Stories</div>
 
-                    <div class="panel-body" ng-repeat="each in story.stories">
+                    <div class="panel-body" ng-repeat="each in story.stories | reverse">
                         <p>{{ each.content }}</p>
                     </div>
                 </div>

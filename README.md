@@ -166,3 +166,8 @@ password: abc123
 ### 32_-_Getting_All_Stories
 
 http://localhost:3000/allStories
+
+### 33_-_Creating_a_new_directive_-_reverse.js
+
+http://localhost:3000  
+http://localhost:3000/allStories
