@@ -162,3 +162,7 @@ password: abc123
 ### 31_-_Adding_real-time_capability
 
     npm install --save socket.io
+
+### 32_-_Getting_All_Stories
+
+http://localhost:3000/allStories
