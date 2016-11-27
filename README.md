@@ -1,6 +1,37 @@
-# Build-a-Real-Time-web-app-in-node.js-Angular.js-mongoDB
+# [udemy] Build a Real Time web app in node.js, Angular.js, mongoDB
 
-[udemy] Build a Real Time web app in node.js, Angular.js, mongoDB
+
+Run Application:
+
+
+    $ git clone application_name
+    $ npm install
+    $ npm start
+
+
+http://localhost:3000/login
+
+    username: batman  
+    password: abc123  
+
+<br/>
+
+![Application](/img/issue_01.png?raw=true)
+
+
+<br/>
+
+If you will receive error:
+
+    Cannot find module '../build/Release/bson'] code: 'MODULE_NOT_FOUND' } js-bson: Failed to load c++ bson extension, using pure JS version
+
+
+Solution:
+
+http://stackoverflow.com/questions/28651028/cannot-find-module-build-release-bson-code-module-not-found-js-bson
+
+
+____
 
 Original src:  
 https://github.com/arashdoescode/userStory
@@ -181,4 +212,4 @@ http://localhost:3000/allStories
 
 ============================================
 
-![Application](/app.png?raw=true)
+![Application](/img/app.png?raw=true)
