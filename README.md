@@ -1,4 +1,35 @@
-# [udemy] Build a Real Time web app in node.js, Angular.js, mongoDB
+# [Udemy] Build a Real Time web app in node.js, Angular.js, mongoDB
+
+<br/>
+
+I'm working on Ubuntu in docker container with debian jessie:
+
+    $ lsb_release -a
+    Distributor ID:	Ubuntu
+    Description:	Ubuntu 14.04.5 LTS
+    Release:	14.04
+    Codename:	trusty
+
+
+<br/>
+
+    $ docker -v
+    Docker version 1.9.1, build a34a1d5
+
+<br/>
+
+
+<a href="http://jsdev.org/env/docker/run-container/">How to run docker container for start development</a>
+(If link will not work give me to know about it)
+
+<br/>
+
+    # node -v
+    v6.8.1
+
+    # npm -v
+    3.10.8
+
 
 
 Run Application:
@@ -213,3 +244,13 @@ http://localhost:3000/allStories
 ============================================
 
 ![Application](/img/app.png?raw=true)
+
+
+___
+
+**Marley**
+
+<a href="https://jsdev.org">jsdev.org</a>
+
+email:  
+![Marley](http://img.fotografii.org/a3333333mail.gif "Marley")
