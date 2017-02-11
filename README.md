@@ -19,7 +19,7 @@ I'm working on Ubuntu in docker container with debian jessie:
 <br/>
 
 
-<a href="http://jsdev.org/env/docker/run-container/">How to run docker container for start development</a>
+<a href="//jsdev.org/env/docker/run-container/linux/">How to run docker container for start development</a>
 (If link will not work give me to know about it)
 
 <br/>
