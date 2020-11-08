@@ -246,11 +246,13 @@ http://localhost:3000/allStories
 ![Application](/img/app.png?raw=true)
 
 
-___
+<br/>
+
+---
+
+<br/>
 
 **Marley**
 
-<a href="https://jsdev.org">jsdev.org</a>
-
-email:  
-![Marley](http://img.fotografii.org/a3333333mail.gif "Marley")
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
